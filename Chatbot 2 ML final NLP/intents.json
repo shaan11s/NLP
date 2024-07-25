@@ -1,0 +1,154 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey!",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "basic_question",
+      "patterns": [
+      "Who is Neymar?", 
+      "Is Neymar a soccer placer?", 
+      "I have heard of Neymar",
+      "I do not know who that is",
+      "I don't know who that is",
+      "I kind of know who he is",
+      "I have heard of the man"
+    ],
+      "responses": [
+        "Neymar is a soccer player from Brazil.",
+        "Neymar is one of the worlds most famous footballers.",
+        "He is one of soccers great superstars!"
+      ]
+    },
+    {
+      "tag": "basic_question2",
+      "patterns": [
+      "I know a little bit about Neymar",
+      "I want to know more about Neymar",
+      "I know about Neymar",
+      "I for sure know something about the guy"
+    ],
+      "responses": [
+        "Good! It's not surprising that you have heard of him as he is one of the most famous players."
+      ]
+    },
+    {
+      "tag": "player_achievements",
+      "patterns": [
+        "Tell me about Neymar's achievements",
+        "What are Neymar's career highlights?",
+        "List Neymar's records.",
+        "What trophies has Neymar won?.",
+        "Has Neymar won the Ligue 1?",
+        "Has Neymar won trophies?",
+        "Is Neymar a great player?"
+      ],
+      "responses": [
+        "Neymar has scored over 100 goals for PSG, joining a rare group of players who've reached this milestone at three different clubs. He has also been a key player in PSG's domestic success.",
+        "Neymar is currently the highest scorer for the Brazilian national team."
+      ]
+    },
+    {
+      "tag": "player_injuries",
+      "patterns": [
+        "What injuries has Neymar had at PSG?",
+        "Can you tell me about Neymars injuries?",
+        "How many games has Neymar missed due to injuries?",
+        "Tell me about Neymar's injury history.",
+        "Is Neymar injury prone?",
+        "Does Neymar get injured?",
+        "What is Neymar's weakness?"
+      ],
+      "responses": [
+        "Neymar has faced multiple injuries during his tenure at PSG, affecting his playtime. He has missed significant games, including key Champions League matches, due to recurring ankle and metatarsal injuries."
+      ]
+    },
+    {
+      "tag": "significant_matches",
+      "patterns": [
+        "Describe a memorable match played by Neymar.",
+        "Tell me about Neymar's performance in the Champions League for Barcelona.",
+        "Tell me about Neymar's performance in the Champions League for PSG.",
+        "How well did he play for Santos in the Libertadores Final?",
+        "What are some highlight matches for Neymar at PSG?",
+        "Tell me about some of Neymars highlights",
+        "What is something great that Neymar contributed as a player?",
+        "Why is Neymar such a great player?"
+      ],
+      "responses": [
+        "One of Neymar's most memorable matches for PSG was against Atalanta in the 2020 Champions League quarter-final. Despite not scoring, his performance was crucial in PSG's comeback to win 2-1.",
+        "One of Neymar's most memorable matches was the 2017 UEFA Champions League Round of 16 second leg between Barcelona and Paris Saint-Germain. After losing the first leg 4-0 in Paris, Barcelona faced a seemingly insurmountable challenge in the return leg at Camp Nou. On March 8, 2017, Neymar played a crucial role in one of the greatest comebacks in football history.",
+        "One of Neymar's most memorable matches while playing for Santos occurred during the 2011 Copa Libertadores final against Peñarol. This was a significant match as it marked Santos' return to the Libertadores final after a long absence, and they were seeking their first title since the Pelé era in the 1960s."
+
+      ]
+    },
+    {
+      "tag": "Santos",
+      "patterns": [
+        "Did Neymar play for Santos?",
+        "Did Neymar win the Libertadores?",
+        "Where did Neymar play in Brazil?",
+        "Did Neymar play in brazil?"
+      ],
+      "responses": [
+        "Neymar played for Santos FC, which is where he began his career and won the Copa Libertadores in 2011. He left Santos for Barcelona after winning the cup for Santos for the first time in 48 years."
+      ]
+    },
+    {
+      "tag": "PSG", 
+      "patterns": [
+        "Did Neymar play for PSG?",
+        "Did Neymar win the French League?",
+        "Did Neymar win Ligue 1?",
+        "Did Neymar play in Paris?",
+        "Has Neymar won the French league?"
+      ],
+      "responses": [
+        "Yes, Neymar has played for Paris Saint-Germain (PSG). He transferred from Barcelona to PSG in the summer of 2017 for a record-breaking fee, making him the most expensive player in the world at that time. During his tenure at PSG, Neymar has won several Ligue 1 titles and other domestic trophies. He has also been a key player for PSG in their UEFA Champions League campaigns."
+      ]
+    },
+    {
+      "tag": "Barcelona",
+      "patterns": [
+        "Did Neymar play for Barcelona?",
+        "Tell me about his time playing for Barcelona",
+        "How long did Neymar play for Barcelona?",
+        "What was the MSN trio?",
+        "Did Neymar play with Messi and Suarez?"
+      ],
+      "responses": [
+        "Yes, Neymar played for Barcelona. He joined the club in 2013 and was part of Barcelona until 2017. During his time there, he formed a notable attacking trio with Lionel Messi and Luis Suárez, known as 'MSN' Neymar contributed significantly to the team's success, including winning multiple La Liga titles, Copa del Rey titles, and the UEFA Champions League in 2015."
+      ]
+    },
+    {
+      "tag": "play_style",
+      "patterns": [
+        "What is Neymar's play style?",
+        "How does Neymar play on the field?",
+        "Describe Neymar's football skills.",
+        "What type of player is Neymar?",
+        "Why do people love to watch Neymar play?",
+        "Is Neymar a dribbler?",
+        "What does he bring to the pitch as a player?",
+        "What does Neymar bring to the pitch as a footballer?"
+      ],
+      "responses": [
+        "Neymar is known for his exceptional dribbling ability, flair, and creativity on the field. He often uses intricate footwork and skill moves to beat defenders, making him one of the most exciting players to watch. His play style includes a strong ability to score and assist, making him a formidable forward in modern football."
+      ]
+    }
+  ]
+}
